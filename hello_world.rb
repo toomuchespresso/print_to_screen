@@ -11,15 +11,18 @@
 # puts "10"
 count = 1
 until count == 101
- if count.odd?
-  puts "odd"
- else 
-  puts count
+  if count % 3 == 0 and count % 5 == 0
+  	puts "minded mines"
+  elsif count % 3 == 0
+    puts "mined"	
+  elsif 
+  	count % 5 == 0
+  	puts "minds"
+  else
+    puts count
   end
-  count = count+1
-end 	
-
-
+ count = count +1
+end
 
 
 
