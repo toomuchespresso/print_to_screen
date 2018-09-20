@@ -24,6 +24,10 @@ end
 
 def palomino
 	1 == [1,2,3,4,5].sample
+
+	
+#good_grief
+
 end
 
 5.times do 
