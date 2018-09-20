@@ -12,7 +12,7 @@
 count = 1
 until count == 101
   if count % 3 == 0 and count % 5 == 0
-  	puts "minded mines"
+  	puts "mined mines"
   elsif count % 3 == 0
     puts "mined"	
   elsif 
